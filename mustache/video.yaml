@@ -2,87 +2,87 @@
 videos:
 - title: Boredum
   creator: David F
-  download_url: video/
+  download_url: https://inveigle-archive.s3.ca-central-1.amazonaws.com/
   cover: "video-image/boredom vhs tn.png"
   images: ["video-image/boredom vhs.jpg"]
 
 - title: Editions of You
   creator: David F
-  download_url: "video/editions of you.m4v"
+  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you.m4v"
   cover: "video-image/editions of you cover tn.png"
   images: ["video-image/editions of you cover.jpg", "video-image/editions of you dvd.jpg"]
   has_extras: true
   extras:
   - title: 16mm extras
-    url: "video/editions of you - 16mm extras.m4v"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - 16mm extras.m4v"
   - title: alternative intro
-    url: "video/editions of you - alternative intro.m4v"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - alternative intro.m4v"
   - title: hth promo
-    url: "video/editions of you - hth promo.m4v"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - hth promo.m4v"
   - title: johnny pt2
-    url: "video/editions of you - johnny 2.m4v"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - johnny 2.m4v"
   - title: montage 1
-    url: "video/editions of you - montage 1.m4v"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - montage 1.m4v"
   - title: montage 2
-    url: "video/editions of you - montage 2.m4v"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - montage 2.m4v"
   - title: raw extras
-    url: "video/editions of you - raw extras.m4v"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - raw extras.m4v"
   - title: skits
-    url: "video/editions of you - skits.m4v"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - skits.m4v"
   - title: ottawa
-    url: "video/editions of you - trips ottawa.m4v"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - trips ottawa.m4v"
   - title: montreal
-    url: "video/editions of you - trips montreal.m4v"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - trips montreal.m4v"
 
 - title: Iconolatry
   creator: David F
-  download_url: video/iconolatry.mp4
+  download_url: https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry.mp4
   has_extras: true
   extras:
   - title: "Promo 1"
-    url: "video/iconolatry promo 1.mp4"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry promo 1.mp4"
   - title: "Promo 2"
-    url: "video/iconolatry promo 2.mp4"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry promo 2.mp4"
   - title: "Dave Ladies"
-    url: "video/iconolatry promo dave.mp4"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry promo dave.mp4"
   - title: "This is Jay Brown"
-    url: "video/iconolatry promo jay.mp4"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry promo jay.mp4"
   - title: "Keiths Donuts"
-    url: "video/iconolatry promo keith.mp4"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry promo keith.mp4"
   - title: "Jesse Iceland"
-    url: "video/iconolatry promo jesse.mp4"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry promo jesse.mp4"
   - title: "Dave Sponsor"
-    url: "video/iconolatry dave sponsor.m4v"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry dave sponsor.m4v"
 
 - title: My Phony Family
   creator: Oskar S
-  download_url: "video/my phony family.m4v"
+  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family.m4v"
   cover: "video-image/my phony family cover tn.png"
   images: ["video-image/my phony family cover.jpg", "video-image/my phony family dvd.jpg"]
   has_extras: true
   extras:
   - title: aurora park
-    url: "video/my phony family - aurora park.m4v"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - aurora park.m4v"
   - title: basement
-    url: "video/my phony family - basement.m4v"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - basement.m4v"
   - title: markham 1
-    url: "video/my phony family - markham park 1.m4v"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - markham park 1.m4v"
   - title: markham 1
-    url: "video/my phony family - markham park 2.m4v"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - markham park 2.m4v"
   - title: montage 1
-    url: "video/my phony family - montage.m4v"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - montage.m4v"
   - title: montage 2
-    url: "video/my phony family - montage 2.m4v"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - montage 2.m4v"
   - title: music video
-    url: "video/my phony family - music video.m4v"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - music video.m4v"
   - title: new market park
-    url: "video/my phony family - newmarket park.m4v"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - newmarket park.m4v"
   - title: nick
-    url: "video/my phony family - nicks movie.m4v"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - nicks movie.m4v"
   - title: picture
-    url: "video/my phony family - picture video.m4v"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - picture video.m4v"
   - title: teaser
-    url: "video/my phony family - teaser.m4v"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - teaser.m4v"
 
 
 
@@ -91,28 +91,28 @@ videos:
 
 - title: "Arena Montage"
   creator: David F
-  download_url: "video/montage-arena.mp4"
+  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/montage-arena.mp4"
   cover: "video-image/montage-arena.png"
 
 - title: "Flip Side Montage"
   creator: David F
-  download_url: "video/montage-flip side.mp4"
+  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/montage-flip side.mp4"
   cover: "video-image/montage-flip side.png"
 
 - title: "Hip Montage"
   creator: David F
-  download_url: "video/montage-hip.mp4"
+  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/montage-hip.mp4"
   cover: "video-image/montage-hip.png"
 
 - title: "Pole Jam Montage"
   creator: David F
-  download_url: "video/montage-pole jam.mp4"
+  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/montage-pole jam.mp4"
   cover: "video-image/montage-pole jam.png"
 
 - title: "Mont Tremblant"
   creator: David F
   year: 2012
-  download_url: "video/mont tremblant.mp4"
+  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/mont tremblant.mp4"
   cover: "video-image/mont tremblant.png"
 
 
@@ -122,36 +122,36 @@ videos:
 - title: "Dave & Rich: Ashbridges"
   year: 2012
   creator: "Dave & Rich"
-  download_url: "video/dave & rich - ashbridges.mp4"
+  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/dave & rich - ashbridges.mp4"
   watch_url: https://vimeo.com/33378445
-  vimeo_embed_url: https://player.vimeo.com/video/33378445
+  vimeo_embed_url: https://player.vimeo.com/https://inveigle-archive.s3.ca-central-1.amazonaws.com/33378445
   cover: "video-image/dave & rich - ashbridges.png"
   image: ["video-image/dave & rich - ashbridges.png", "video-image/dave & rich - ashbridges.png"]
 
 - title: "Dave & Rich: Brampton / Bolton"
   year: 2012
   creator: "Dave & Rich"
-  download_url: "video/dave & rich - brampton_bolton.mp4"
+  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/dave & rich - brampton_bolton.mp4"
   watch_url: https://vimeo.com/34925424
-  vimeo_embed_url: https://player.vimeo.com/video/34925424
+  vimeo_embed_url: https://player.vimeo.com/https://inveigle-archive.s3.ca-central-1.amazonaws.com/34925424
   cover: "video-image/dave & rich - brampton_bolton.png"
   image: ["video-image/dave & rich - brampton_bolton.png"]
 
 - title: "Dave & Rich: Woodbridge"
   year: 2012
   creator: "Dave & Rich"
-  download_url: "video/dave & rich - woodbridge.mp4"
+  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/dave & rich - woodbridge.mp4"
   watch_url: https://vimeo.com/33535816
-  vimeo_embed_url: https://player.vimeo.com/video/33535816
+  vimeo_embed_url: https://player.vimeo.com/https://inveigle-archive.s3.ca-central-1.amazonaws.com/33535816
   cover: "video-image/dave & rich - woodbridge.png"
   image: ["video-image/dave & rich - woodbridge.png"]
 
 - title: "Dave & Rich: Markham / Extras"
   year: 2012
   creator: "Dave & Rich"
-  download_url: "video/dave & rich - markham_extras.mp4"
+  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/dave & rich - markham_extras.mp4"
   watch_url: https://vimeo.com/33548178
-  vimeo_embed_url: https://player.vimeo.com/video/33548178
+  vimeo_embed_url: https://player.vimeo.com/https://inveigle-archive.s3.ca-central-1.amazonaws.com/33548178
   cover: "video-image/dave & rich - markham_extras.png"
   image: ["video-image/dave & rich - markham_extras.png"]
 
