@@ -1,0 +1,98 @@
+<style>
+  .video {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 6em 1em 6em 2em;
+  }
+
+  .video:last-of-type {
+    border: none;
+  }
+
+  .video-details {
+    flex: 1;
+    margin-right: 1em;
+  }
+
+  .video-details .icon {
+    margin-left: 0;
+  }
+
+  .video-details h2 {
+    margin-top: 0;
+  }
+
+  .video .gallery {
+    margin-top: 2em;
+  }
+
+  .video .gallery img {
+    width: 8em;
+  }
+
+  .extras li {
+    display: inline-block;
+  }
+
+  .cover {
+    max-height: 12em;
+  }
+</style>
+
+{{#videos}}
+  <div class=video>
+    <div class=video-details>
+      <h2>{{ title }}{{#year}} ({{year}}){{/year}}</h2>
+      <ul>
+        <li>{{#creator}}by: {{creator}}{{/creator}}</li>
+        <li><a href="{{download_url}}"><img class=icon src=assets/download-icon.svg />download</a></li>
+        {{#watch_url}}
+          <li>
+            {{#vimeo_embed_url}}<img class=icon src=assets/vimeo.svg/>{{/vimeo_embed_url}}
+            {{#youtube_embed_url}}<img class=icon src=assets/youtube.svg/>{{/youtube_embed_url}}
+            <a href="{{watch_url}}">watch</a>
+          </li>
+        {{/watch_url}}
+
+        {{#has_extras}}
+          <li><img class=icon src=assets/gift.svg/>extras:
+          <ul class=extras>
+        {{/has_extras}}
+
+        {{#extras}}
+          <li>
+            <a href="{{url}}">{{title}}</a>
+          </li>
+        {{/extras}}
+
+        {{#has_extras}}
+          </ul>
+        </li>
+        {{/has_extras}}
+      </ul>
+
+      <div class=gallery>
+        {{#images}}
+          <a href="{{.}}">
+            <img src="{{.}}">
+          </a>
+        {{/images}}
+      </div>
+    </div>
+
+    {{#cover}}
+      <img class=cover src="{{cover}}" />
+    {{/cover}}
+  </div>
+{{/videos}}
+
+<script>
+  document.querySelectorAll(".gallery").forEach(function(g) {
+    lightGallery(g, {
+      thumbnail: true,
+      animateThumb: true,
+      showThumbByDefault: true
+    });
+  });
+</script>

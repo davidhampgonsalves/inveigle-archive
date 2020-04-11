@@ -1,0 +1,34 @@
+
+<style>
+  .gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  a {
+    margin: 0 0.3em;
+  }
+
+  img {
+    height: 10em;
+  }
+</style>
+
+<div class=gallery>
+  {{#photos}}
+    <a href="{{src}}">
+      <img src="{{tn}}">
+    </a>
+  {{/photos}}
+</div>
+
+<script>
+  document.querySelectorAll(".gallery").forEach(function(g) {
+    lightGallery(g, {
+      thumbnail: true,
+      animateThumb: true,
+      showThumbByDefault: true
+    });
+  });
+</script>
