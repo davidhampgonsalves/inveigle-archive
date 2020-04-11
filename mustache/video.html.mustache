@@ -49,15 +49,16 @@
         <li><a href="{{download_url}}"><img class=icon src=assets/download-icon.svg />download</a></li>
         {{#watch_url}}
           <li>
-            {{#vimeo_embed_url}}<img class=icon src=assets/vimeo.svg/>{{/vimeo_embed_url}}
-            {{#youtube_embed_url}}<img class=icon src=assets/youtube.svg/>{{/youtube_embed_url}}
+            {{#vimeo_embed_url}}<img class=icon src=assets/vimeo.svg>{{/vimeo_embed_url}}
+            {{#youtube_embed_url}}<img class=icon src=assets/youtube.svg>{{/youtube_embed_url}}
             <a href="{{watch_url}}">watch</a>
           </li>
         {{/watch_url}}
 
         {{#has_extras}}
-          <li><img class=icon src=assets/gift.svg/>extras:
-          <ul class=extras>
+          <li>
+            <img class=icon src=assets/gift.svg>extras:
+            <ul class=extras>
         {{/has_extras}}
 
         {{#extras}}
