@@ -1,7 +1,6 @@
 <style>
   .video {
     display: flex;
-    width: 100%;
     border-bottom: 1px solid black;
     padding: 6em 1em 6em 2em;
   }
@@ -35,8 +34,20 @@
     display: inline-block;
   }
 
-  .cover {
-    max-height: 12em;
+  .video-container video {
+    width: 20em;
+  }
+
+  @media (max-width: 750px) {
+    .video-container video {
+        width: 60%;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .video-container video {
+      width: 100%;
+    }
   }
 </style>
 
@@ -46,7 +57,7 @@
       <h2>{{ title }}{{#year}} ({{year}}){{/year}}</h2>
       <ul>
         <li>{{#creator}}by: {{creator}}{{/creator}}</li>
-        <li><a href="{{download_url}}"><img class=icon src=assets/download-icon.svg />download</a></li>
+        <li><a href="{{download_url}}.mp4" download><img class=icon src=assets/download-icon.svg />download</a></li>
         {{#watch_url}}
           <li>
             {{#vimeo_embed_url}}<img class=icon src=assets/vimeo.svg>{{/vimeo_embed_url}}
@@ -63,7 +74,7 @@
 
         {{#extras}}
           <li>
-            <a href="{{url}}">{{title}}</a>
+            <a href="{{url}}.mp4">{{title}}</a>
           </li>
         {{/extras}}
 
@@ -83,7 +94,13 @@
     </div>
 
     {{#cover}}
-      <img class=cover src="{{cover}}" />
+      <div class=video-container>
+        <video controls poster="{{cover}}" preload="none">
+          <!--source src="{{download_webm_url}}.webm" type="video/webm; codecs=vp9,vorbis"-->
+          <source src="{{download_webm_url}}.mp4" type="video/mp4">
+          Your browser doesn't support HTML5 video tag.
+        </video>
+      </div>
     {{/cover}}
   </div>
 {{/videos}}

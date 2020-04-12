@@ -29,7 +29,6 @@
       <style>
   .video {
     display: flex;
-    width: 100%;
     border-bottom: 1px solid black;
     padding: 6em 1em 6em 2em;
   }
@@ -63,8 +62,20 @@
     display: inline-block;
   }
 
-  .cover {
-    max-height: 12em;
+  .video-container video {
+    width: 20em;
+  }
+
+  @media (max-width: 750px) {
+    .video-container video {
+        width: 60%;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .video-container video {
+      width: 100%;
+    }
   }
 </style>
 
@@ -73,7 +84,7 @@
       <h2>Boredum</h2>
       <ul>
         <li>by: David F</li>
-        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/"><img class=icon src=assets/download-icon.svg />download</a></li>
+        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/.mp4" download><img class=icon src=assets/download-icon.svg />download</a></li>
 
 
 
@@ -86,48 +97,54 @@
       </div>
     </div>
 
-      <img class=cover src="video-image/boredom vhs tn.png" />
+      <div class=video-container>
+        <video controls poster="video-image/boredom vhs tn.png" preload="none">
+          <!--source src=".webm" type="video/webm; codecs=vp9,vorbis"-->
+          <source src=".mp4" type="video/mp4">
+          Your browser doesn't support HTML5 video tag.
+        </video>
+      </div>
   </div>
   <div class=video>
     <div class=video-details>
       <h2>Editions of You</h2>
       <ul>
         <li>by: David F</li>
-        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you.m4v"><img class=icon src=assets/download-icon.svg />download</a></li>
+        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you.mp4" download><img class=icon src=assets/download-icon.svg />download</a></li>
 
           <li>
             <img class=icon src=assets/gift.svg>extras:
             <ul class=extras>
 
           <li>
-            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - 16mm extras.m4v">16mm extras</a>
+            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - 16mm extras.mp4">16mm extras</a>
           </li>
           <li>
-            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - alternative intro.m4v">alternative intro</a>
+            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - alternative intro.mp4">alternative intro</a>
           </li>
           <li>
-            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - hth promo.m4v">hth promo</a>
+            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - hth promo.mp4">hth promo</a>
           </li>
           <li>
-            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - johnny 2.m4v">johnny pt2</a>
+            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - johnny 2.mp4">johnny pt2</a>
           </li>
           <li>
-            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - montage 1.m4v">montage 1</a>
+            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - montage 1.mp4">montage 1</a>
           </li>
           <li>
-            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - montage 2.m4v">montage 2</a>
+            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - montage 2.mp4">montage 2</a>
           </li>
           <li>
-            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - raw extras.m4v">raw extras</a>
+            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - raw extras.mp4">raw extras</a>
           </li>
           <li>
-            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - skits.m4v">skits</a>
+            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - skits.mp4">skits</a>
           </li>
           <li>
-            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - trips ottawa.m4v">ottawa</a>
+            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - trips ottawa.mp4">ottawa</a>
           </li>
           <li>
-            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - trips montreal.m4v">montreal</a>
+            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - trips montreal.mp4">montreal</a>
           </li>
 
           </ul>
@@ -144,14 +161,20 @@
       </div>
     </div>
 
-      <img class=cover src="video-image/editions of you cover tn.png" />
+      <div class=video-container>
+        <video controls poster="video-image/editions of you cover tn.png" preload="none">
+          <!--source src=".webm" type="video/webm; codecs=vp9,vorbis"-->
+          <source src=".mp4" type="video/mp4">
+          Your browser doesn't support HTML5 video tag.
+        </video>
+      </div>
   </div>
   <div class=video>
     <div class=video-details>
       <h2>Iconolatry</h2>
       <ul>
         <li>by: David F</li>
-        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry.mp4"><img class=icon src=assets/download-icon.svg />download</a></li>
+        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry.mp4" download><img class=icon src=assets/download-icon.svg />download</a></li>
 
           <li>
             <img class=icon src=assets/gift.svg>extras:
@@ -176,7 +199,7 @@
             <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry promo jesse.mp4">Jesse Iceland</a>
           </li>
           <li>
-            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry dave sponsor.m4v">Dave Sponsor</a>
+            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry dave sponsor.mp4">Dave Sponsor</a>
           </li>
 
           </ul>
@@ -193,44 +216,44 @@
       <h2>My Phony Family</h2>
       <ul>
         <li>by: Oskar S</li>
-        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family.m4v"><img class=icon src=assets/download-icon.svg />download</a></li>
+        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family.mp4" download><img class=icon src=assets/download-icon.svg />download</a></li>
 
           <li>
             <img class=icon src=assets/gift.svg>extras:
             <ul class=extras>
 
           <li>
-            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - aurora park.m4v">aurora park</a>
+            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - aurora park.mp4">aurora park</a>
           </li>
           <li>
-            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - basement.m4v">basement</a>
+            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - basement.mp4">basement</a>
           </li>
           <li>
-            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - markham park 1.m4v">markham 1</a>
+            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - markham park 1.mp4">markham 1</a>
           </li>
           <li>
-            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - markham park 2.m4v">markham 1</a>
+            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - markham park 2.mp4">markham 1</a>
           </li>
           <li>
-            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - montage.m4v">montage 1</a>
+            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - montage.mp4">montage 1</a>
           </li>
           <li>
-            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - montage 2.m4v">montage 2</a>
+            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - montage 2.mp4">montage 2</a>
           </li>
           <li>
-            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - music video.m4v">music video</a>
+            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - music video.mp4">music video</a>
           </li>
           <li>
-            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - newmarket park.m4v">new market park</a>
+            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - newmarket park.mp4">new market park</a>
           </li>
           <li>
-            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - nicks movie.m4v">nick</a>
+            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - nicks movie.mp4">nick</a>
           </li>
           <li>
-            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - picture video.m4v">picture</a>
+            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - picture video.mp4">picture</a>
           </li>
           <li>
-            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - teaser.m4v">teaser</a>
+            <a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - teaser.mp4">teaser</a>
           </li>
 
           </ul>
@@ -247,14 +270,20 @@
       </div>
     </div>
 
-      <img class=cover src="video-image/my phony family cover tn.png" />
+      <div class=video-container>
+        <video controls poster="video-image/my phony family cover tn.png" preload="none">
+          <!--source src=".webm" type="video/webm; codecs=vp9,vorbis"-->
+          <source src=".mp4" type="video/mp4">
+          Your browser doesn't support HTML5 video tag.
+        </video>
+      </div>
   </div>
   <div class=video>
     <div class=video-details>
       <h2>Arena Montage</h2>
       <ul>
         <li>by: David F</li>
-        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/montage-arena.mp4"><img class=icon src=assets/download-icon.svg />download</a></li>
+        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/montage-arena.mp4" download><img class=icon src=assets/download-icon.svg />download</a></li>
 
 
 
@@ -264,14 +293,20 @@
       </div>
     </div>
 
-      <img class=cover src="video-image/montage-arena.png" />
+      <div class=video-container>
+        <video controls poster="video-image/montage-arena.png" preload="none">
+          <!--source src=".webm" type="video/webm; codecs=vp9,vorbis"-->
+          <source src=".mp4" type="video/mp4">
+          Your browser doesn't support HTML5 video tag.
+        </video>
+      </div>
   </div>
   <div class=video>
     <div class=video-details>
       <h2>Flip Side Montage</h2>
       <ul>
         <li>by: David F</li>
-        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/montage-flip side.mp4"><img class=icon src=assets/download-icon.svg />download</a></li>
+        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/montage-flip side.mp4" download><img class=icon src=assets/download-icon.svg />download</a></li>
 
 
 
@@ -281,14 +316,20 @@
       </div>
     </div>
 
-      <img class=cover src="video-image/montage-flip side.png" />
+      <div class=video-container>
+        <video controls poster="video-image/montage-flip side.png" preload="none">
+          <!--source src=".webm" type="video/webm; codecs=vp9,vorbis"-->
+          <source src=".mp4" type="video/mp4">
+          Your browser doesn't support HTML5 video tag.
+        </video>
+      </div>
   </div>
   <div class=video>
     <div class=video-details>
       <h2>Hip Montage</h2>
       <ul>
         <li>by: David F</li>
-        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/montage-hip.mp4"><img class=icon src=assets/download-icon.svg />download</a></li>
+        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/montage-hip.mp4" download><img class=icon src=assets/download-icon.svg />download</a></li>
 
 
 
@@ -298,14 +339,20 @@
       </div>
     </div>
 
-      <img class=cover src="video-image/montage-hip.png" />
+      <div class=video-container>
+        <video controls poster="video-image/montage-hip.png" preload="none">
+          <!--source src=".webm" type="video/webm; codecs=vp9,vorbis"-->
+          <source src=".mp4" type="video/mp4">
+          Your browser doesn't support HTML5 video tag.
+        </video>
+      </div>
   </div>
   <div class=video>
     <div class=video-details>
       <h2>Pole Jam Montage</h2>
       <ul>
         <li>by: David F</li>
-        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/montage-pole jam.mp4"><img class=icon src=assets/download-icon.svg />download</a></li>
+        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/montage-pole jam.mp4" download><img class=icon src=assets/download-icon.svg />download</a></li>
 
 
 
@@ -315,14 +362,20 @@
       </div>
     </div>
 
-      <img class=cover src="video-image/montage-pole jam.png" />
+      <div class=video-container>
+        <video controls poster="video-image/montage-pole jam.png" preload="none">
+          <!--source src=".webm" type="video/webm; codecs=vp9,vorbis"-->
+          <source src=".mp4" type="video/mp4">
+          Your browser doesn't support HTML5 video tag.
+        </video>
+      </div>
   </div>
   <div class=video>
     <div class=video-details>
       <h2>Mont Tremblant (2012)</h2>
       <ul>
         <li>by: David F</li>
-        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/mont tremblant.mp4"><img class=icon src=assets/download-icon.svg />download</a></li>
+        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/mont tremblant.mp4" download><img class=icon src=assets/download-icon.svg />download</a></li>
 
 
 
@@ -332,14 +385,20 @@
       </div>
     </div>
 
-      <img class=cover src="video-image/mont tremblant.png" />
+      <div class=video-container>
+        <video controls poster="video-image/mont tremblant.png" preload="none">
+          <!--source src=".webm" type="video/webm; codecs=vp9,vorbis"-->
+          <source src=".mp4" type="video/mp4">
+          Your browser doesn't support HTML5 video tag.
+        </video>
+      </div>
   </div>
   <div class=video>
     <div class=video-details>
       <h2>Dave &amp; Rich: Ashbridges (2012)</h2>
       <ul>
         <li>by: Dave &amp; Rich</li>
-        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/dave &amp; rich - ashbridges.mp4"><img class=icon src=assets/download-icon.svg />download</a></li>
+        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/dave &amp; rich - ashbridges.mp4" download><img class=icon src=assets/download-icon.svg />download</a></li>
           <li>
             <img class=icon src=assets/vimeo.svg>
             
@@ -354,14 +413,20 @@
       </div>
     </div>
 
-      <img class=cover src="video-image/dave &amp; rich - ashbridges.png" />
+      <div class=video-container>
+        <video controls poster="video-image/dave &amp; rich - ashbridges.png" preload="none">
+          <!--source src=".webm" type="video/webm; codecs=vp9,vorbis"-->
+          <source src=".mp4" type="video/mp4">
+          Your browser doesn't support HTML5 video tag.
+        </video>
+      </div>
   </div>
   <div class=video>
     <div class=video-details>
       <h2>Dave &amp; Rich: Brampton / Bolton (2012)</h2>
       <ul>
         <li>by: Dave &amp; Rich</li>
-        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/dave &amp; rich - brampton_bolton.mp4"><img class=icon src=assets/download-icon.svg />download</a></li>
+        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/dave &amp; rich - brampton_bolton.mp4" download><img class=icon src=assets/download-icon.svg />download</a></li>
           <li>
             <img class=icon src=assets/vimeo.svg>
             
@@ -376,14 +441,20 @@
       </div>
     </div>
 
-      <img class=cover src="video-image/dave &amp; rich - brampton_bolton.png" />
+      <div class=video-container>
+        <video controls poster="video-image/dave &amp; rich - brampton_bolton.png" preload="none">
+          <!--source src=".webm" type="video/webm; codecs=vp9,vorbis"-->
+          <source src=".mp4" type="video/mp4">
+          Your browser doesn't support HTML5 video tag.
+        </video>
+      </div>
   </div>
   <div class=video>
     <div class=video-details>
       <h2>Dave &amp; Rich: Woodbridge (2012)</h2>
       <ul>
         <li>by: Dave &amp; Rich</li>
-        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/dave &amp; rich - woodbridge.mp4"><img class=icon src=assets/download-icon.svg />download</a></li>
+        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/dave &amp; rich - woodbridge.mp4" download><img class=icon src=assets/download-icon.svg />download</a></li>
           <li>
             <img class=icon src=assets/vimeo.svg>
             
@@ -398,14 +469,20 @@
       </div>
     </div>
 
-      <img class=cover src="video-image/dave &amp; rich - woodbridge.png" />
+      <div class=video-container>
+        <video controls poster="video-image/dave &amp; rich - woodbridge.png" preload="none">
+          <!--source src=".webm" type="video/webm; codecs=vp9,vorbis"-->
+          <source src=".mp4" type="video/mp4">
+          Your browser doesn't support HTML5 video tag.
+        </video>
+      </div>
   </div>
   <div class=video>
     <div class=video-details>
       <h2>Dave &amp; Rich: Markham / Extras (2012)</h2>
       <ul>
         <li>by: Dave &amp; Rich</li>
-        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/dave &amp; rich - markham_extras.mp4"><img class=icon src=assets/download-icon.svg />download</a></li>
+        <li><a href="https://inveigle-archive.s3.ca-central-1.amazonaws.com/dave &amp; rich - markham_extras.mp4" download><img class=icon src=assets/download-icon.svg />download</a></li>
           <li>
             <img class=icon src=assets/vimeo.svg>
             
@@ -420,7 +497,13 @@
       </div>
     </div>
 
-      <img class=cover src="video-image/dave &amp; rich - markham_extras.png" />
+      <div class=video-container>
+        <video controls poster="video-image/dave &amp; rich - markham_extras.png" preload="none">
+          <!--source src=".webm" type="video/webm; codecs=vp9,vorbis"-->
+          <source src=".mp4" type="video/mp4">
+          Your browser doesn't support HTML5 video tag.
+        </video>
+      </div>
   </div>
 
 <script>
