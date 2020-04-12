@@ -24,11 +24,13 @@
 </div>
 
 <script>
-  document.querySelectorAll(".gallery").forEach(function(g) {
-    lightGallery(g, {
-      thumbnail: true,
-      animateThumb: true,
-      showThumbByDefault: true
+  window.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll(".gallery").forEach(function(g) {
+      lightGallery(g, {
+        thumbnail: true,
+        animateThumb: true,
+        showThumbByDefault: true
+      });
     });
   });
 </script>

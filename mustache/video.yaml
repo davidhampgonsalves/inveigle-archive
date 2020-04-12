@@ -15,24 +15,33 @@ videos:
   extras:
   - title: 16mm extras
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - 16mm extras"
+    id: eoy-16
   - title: alternative intro
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - alternative intro"
+    id: eoy-alt
   - title: hth promo
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - hth promo"
   - title: johnny pt2
+    id: eoy-johnny
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - johnny 2"
   - title: montage 1
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - montage 1"
+    id: eoy-m-1
   - title: montage 2
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - montage 2"
+    id: eoy-m-2
   - title: raw extras
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - raw extras"
+    id: eoy-raw
   - title: skits
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - skits"
+    id: eoy-skits
   - title: ottawa
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - trips ottawa"
+    id: eoy-ottawa
   - title: montreal
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/editions of you - trips montreal"
+    id: eoy-montreal
 
 - title: Iconolatry
   creator: David F
@@ -41,18 +50,25 @@ videos:
   extras:
   - title: "Promo 1"
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry promo 1"
+    id: iconolatry-promo-1
   - title: "Promo 2"
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry promo 2"
+    id: iconolatry-promo-2
   - title: "Dave Ladies"
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry promo dave"
+    id: iconolatry-dave
   - title: "This is Jay Brown"
+    id: iconolatry-jay
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry promo jay"
   - title: "Keiths Donuts"
+    id: iconolatry-keith
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry promo keith"
   - title: "Jesse Iceland"
+    id: iconolatry-jesse
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry promo jesse"
   - title: "Dave Sponsor"
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry dave sponsor"
+    id: iconolatry-dave-sponsor
 
 - title: My Phony Family
   creator: Oskar S
@@ -63,27 +79,36 @@ videos:
   extras:
   - title: aurora park
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - aurora park"
+    id: mpf-aurora
   - title: basement
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - basement"
+    id: mpf-basement
   - title: markham 1
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - markham park 1"
   - title: markham 1
+    id: mpf-markham
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - markham park 2"
   - title: montage 1
+    id: mpf-montage
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - montage"
   - title: montage 2
+    id: mpf-montage
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - montage 2"
   - title: music video
+    id: mpf-music
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - music video"
   - title: new market park
+    id: mpf-nmp
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - newmarket park"
   - title: nick
+    id: mpf-nick
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - nicks movie"
   - title: picture
+    id: mpf-pic
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - picture video"
   - title: teaser
+    id: mpf-teaser
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - teaser"
-
 
 
 

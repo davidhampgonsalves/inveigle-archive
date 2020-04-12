@@ -5,6 +5,7 @@
   "author": "David Hamp-Gonsalves <davidhampgonsalves@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "lg-video.js": "^1.0.0",
     "lightgallery.js": "^1.1.3"
   }
 }
