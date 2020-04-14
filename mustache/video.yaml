@@ -1,10 +1,10 @@
 ---
 videos:
-- title: Boredum
-  creator: David F
-  download_url: https://inveigle-archive.s3.ca-central-1.amazonaws.com/
-  cover: "video-image/boredom vhs tn.png"
-  images: ["video-image/boredom vhs.jpg"]
+#- title: Boredum
+  #creator: David F
+  #download_url: https://inveigle-archive.s3.ca-central-1.amazonaws.com/
+  #cover: "video-image/boredom vhs tn.png"
+  #images: ["video-image/boredom vhs.jpg"]
 
 - title: Editions of You
   creator: David F
@@ -133,6 +133,11 @@ videos:
   creator: David F
   download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/montage-pole jam"
   cover: "video-image/montage-pole jam.png"
+
+- title: "Satelite Dish"
+  creator: David F
+  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/montage-satelite dish"
+  cover: "video-image/montage-satelite dish.png"
 
 - title: "Mont Tremblant"
   creator: David F
