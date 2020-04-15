@@ -1,6 +1,8 @@
 
 ---
 photos:
+- tn: "photo/group-01.tn.jpg"
+  src: "photo/group-01.jpg"
 - tn: "photo/tyler ny kickflip 01.tn.jpg"
   src: "photo/tyler ny kickflip 01.jpg"
 - tn: "photo/tyler ny kickflip 02.tn.jpg"
