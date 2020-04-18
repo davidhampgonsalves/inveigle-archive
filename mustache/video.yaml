@@ -45,9 +45,13 @@ videos:
 
 - title: Iconolatry
   creator: David F
-  download_url: https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry
+  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry"
+  cover: "video-image/iconolatry.png"
   has_extras: true
   extras:
+  - title: "Iconolatry Part II"
+    url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry part 2"
+    id: iconolatry-part-2
   - title: "Promo 1"
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry promo 1"
     id: iconolatry-promo-1
