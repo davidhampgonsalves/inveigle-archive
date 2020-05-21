@@ -28,3 +28,19 @@ for file in *.mp4; do
   ffmpeg -i $file -threads 4 -vf scale=640x480 -b:v 750k -quality good -speed 0 -crf 33 -c:v libvpx-vp9 -c:a libopus $file.webm
 done
 ```
+
+## Canadian Forces
+transcode each part via: `ffmpeg -i "canadian forces - roderick.avi" -crf 19 -vf yadif -tune film -preset slow -pix_fmt yuv420p -vcodec h264 -acodec mp2 "canadian forces - roderick.mp4"`
+
+Then concat via:
+list.txt:
+`
+file 'canadian forces - intro.mp4'
+file 'canadian forces - richard.mp4'
+file 'canadian forces - friends.mp4'
+file 'canadian forces - roderick.mp4'
+file 'canadian forces - david.mp4'
+`
+
+`ffmpeg -f concat -safe 0 -i list.txt -crf 20 -tune film -preset slow -pix_fmt yuv420p -vcodec h264 -acodec mp2 "canadian forces.mp4"`
+
