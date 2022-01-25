@@ -237,11 +237,34 @@ videos:
   cover: "video-image/sb-b.png"
   year: 2020
 
-- title: Instagram Mini
+- title: IG Cabin Mini
   creator: David H-G
   download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/sb-mini"
   cover: "video-image/sb-mini.png"
   year: 2020
 
+- title: IG Ziggy Mini
+  creator: David H-G
+  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/sb-ziggy"
+  cover: "video-image/default.png"
+  year: 2020
+
+- title: IG Pumpkin Mini
+  creator: David H-G
+  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/sb-punkin"
+  cover: "video-image/default.png"
+  year: 2020
+
+- title: IG SB-2
+  creator: David H-G
+  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/SB-2"
+  cover: "video-image/default.png"
+  year: 2021
+
+- title: IG Piggy Mini
+  creator: David H-G
+  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/sb-piggy"
+  cover: "video-image/default.png"
+  year: 2022
 ---
 
