@@ -96,7 +96,7 @@ videos:
   - title: "Dave Sponsor"
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/iconolatry dave sponsor"
     id: iconolatry-dave-sponsor
-    cover: "video-image/iconolatry dave sponsor.png"
+    cover: "video-image/iconolatry dave sponsor.jpg"
 
 - title: My Phony Family
   creator: Oskar S
@@ -149,7 +149,6 @@ videos:
     id: mpf-teaser
     url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/my phony family - teaser"
     cover: "video-image/my phony family - teaser.jpg"
-
 
 
 
@@ -225,46 +224,75 @@ videos:
   cover: "video-image/dave & rich - markham_extras.png"
   image: ["video-image/dave & rich - markham_extras.png"]
 
-- title: Instagram
-  creator: David H-G
-  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/sb"
+
+secretVideos:
+- download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/flower-rail"
+  cover: "video-image/flower-rail.jpg"
+
+- download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/2024"
+  cover: "video-image/2024.jpg"
+
+- download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/partner-welcome"
+  cover: "video-image/partner-welcome.jpg"
+
+- download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/partner-the-hub"
+  cover: "video-image/partner-the-hub.jpg"
+
+- download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/2023"
+  cover: "video-image/2023.jpg"
+
+- download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/bloomfield"
+  cover: "video-image/bloomfield.jpg"
+
+- download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/dingle"
+  cover: "video-image/dingle.jpg"
+
+- download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/kentville"
+  cover: "video-image/kentville.jpg"
+
+- download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/london"
+  cover: "video-image/london.jpg"
+
+- download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/sb-piggy"
+  cover: "video-image/piggy.jpg"
+
+- download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/SB-2"
+  cover: "video-image/sb-2.jpg"
+
+- download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/code-red"
+  cover: "video-image/code-red.jpg"
+
+- download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/crab-flats"
+  cover: "video-image/crab-flats.jpg"
+
+- download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/lvlup"
+  cover: "video-image/lvlup.jpg"
+
+- download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/partner-lvlup"
+  cover: "video-image/partner-lvlup.jpg"
+
+- download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/picnic-table"
+  cover: "video-image/picnic-table.jpg"
+
+- download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/slug-rail"
+  cover: "video-image/slug-rail.jpg"
+
+- download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/spine"
+  cover: "video-image/spine.jpg"
+
+- download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/sb"
   cover: "video-image/sb.png"
-  year: 2020
 
-- title: Instagram B
-  creator: David H-G
-  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/sb-B"
+- download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/sb-B"
   cover: "video-image/sb-b.png"
-  year: 2020
 
-- title: IG Cabin Mini
-  creator: David H-G
-  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/sb-mini"
+- download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/sb-mini"
   cover: "video-image/sb-mini.png"
-  year: 2020
 
-- title: IG Ziggy Mini
-  creator: David H-G
-  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/sb-ziggy"
-  cover: "video-image/default.png"
-  year: 2020
+- download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/sb-ziggy"
+  cover: "video-image/ziggy.jpg"
 
-- title: IG Pumpkin Mini
-  creator: David H-G
-  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/sb-punkin"
-  cover: "video-image/default.png"
-  year: 2020
-
-- title: IG SB-2
-  creator: David H-G
-  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/SB-2"
-  cover: "video-image/default.png"
-  year: 2021
-
-- title: IG Piggy Mini
-  creator: David H-G
-  download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/sb-piggy"
-  cover: "video-image/default.png"
-  year: 2022
+- download_url: "https://inveigle-archive.s3.ca-central-1.amazonaws.com/sb-punkin"
+  cover: "video-image/punkin.jpg"
 ---
 

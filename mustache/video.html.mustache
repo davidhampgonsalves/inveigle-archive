@@ -57,6 +57,58 @@
   </div>
 {{/videos}}
 
+<style>
+	#secret h2 {
+		background: #ff0049;
+		padding: 1em;
+		margin: 0;
+		text-align: center;
+		color: white;
+		font-weight: bold;
+		font-size: 4em;
+		text-transform: uppercase;
+	}
+
+	#secret div {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	    	grid-gap: 1em;
+		background: #fff1bae3;
+		padding: 1em;
+	}
+
+	video.sm {
+		width: 100%;
+		height: 100%;
+		max-height: 25em;
+	}
+
+</style>
+<div id=secret style="display:none"> <!-- click bottom logo 3 times -->
+	<h2>👻 Secret 🤫</h2>
+	<div>
+		{{#secretVideos}}
+		<video class="lg-video-object lg-html5 sm" poster="{{cover}}" controls preload="none">
+			<source src="{{download_url}}.mp4" type="video/mp4">
+		</video>
+		{{/secretVideos}}
+	</div>
+</div>
+<script>
+	document.onreadystatechange = function () {
+		if (document.readyState != "complete") return;
+
+		let count = 0;
+		document.querySelectorAll("svg")[1].addEventListener("click", () => {
+		    count++;
+		    if(count < 3) return;
+		    count = 0;
+		    const el = document.querySelector("#secret");
+			el.style.display = el.style.display === "none" ? "block" : "none";
+		});
+	};
+</script>
+
 <script>
   window.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll(".gallery").forEach(function(g) {
